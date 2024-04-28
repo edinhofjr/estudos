@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <malloc.h>
+
+typedef struct Node {
+    int id;
+    struct Node *nextNode;
+} Node;
+
+void printList(Node **nHead) {
+    Node *no = *nHead;
+    while (no != NULL) {
+        printf("%d\t", no->id);
+        no = no->nextNode;
+    }
+}
+
+void insertInBeginning(Node **nHead) {
+
+    Node *newNode = (Node *) malloc(sizeof(Node));
+    int value;
+
+    if (*nHead != NULL) {
+        value = (*nHead)->id + 1;
+    } else {
+        value = 0;
+    }
+    newNode->id = value;
+    newNode->nextNode = *nHead;
+    *nHead = newNode;
+}
+
+
+int main() {
+    Node *head;
+    head = NULL;
+
+    insertInBeginning(&head);
+    insertInBeginning(&head);
+    printList(&head);
+}

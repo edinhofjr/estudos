@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <malloc.h>
+
+typedef struct Node {
+    int id;
+    struct Node *nextNode;
+} Node;
+
+typedef struct LinkedList{
+    Node *head;
+}LinkedList;
+
+void printList(Node **nHead) {
+    Node *no = *nHead;
+    while (no != NULL) {
+        printf("%d\t", no->id);
+        no = no->nextNode;
+    }
+}
+
+void insertBeginning(Node **nHead) {
+
+    Node *newNode = (Node *) malloc(sizeof(Node));
+    int value;
+
+    if (*nHead != NULL) {
+        value = (*nHead)->id + 1;
+    } else {
+        value = 0;
+    }
+    newNode->id = value;
+    newNode->nextNode = *nHead;
+    *nHead = newNode;
+}
+
+void insertEnd(Node **nHead) {
+    Node *newNode = (Node *) malloc(sizeof(Node));
+
+    if (*nHead != NULL) {
+        newNode->id = (*nHead)->id + 1;
+    } else {
+        newNode->id = 0;
+    }
+
+    Node *no = *nHead;
+    while(no->nextNode != NULL) {
+        no = no->nextNode;
+    }
+    no->nextNode = newNode;
+    newNode->nextNode = NULL;
+
+}
+
+int main() {
+    LinkedList linkedList;
+    linkedList.head = NULL;
+
+    insertBeginning(&linkedList.head);
+    insertBeginning(&linkedList.head);
+    insertEnd(&linkedList.head);
+    printList(&linkedList.head);
+}

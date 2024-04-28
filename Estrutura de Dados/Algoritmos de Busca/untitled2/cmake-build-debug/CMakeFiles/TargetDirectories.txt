@@ -1,0 +1,3 @@
+C:/Users/Edinho/CLionProjects/Estrutura de Dados/Algoritmos de Busca/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir
+C:/Users/Edinho/CLionProjects/Estrutura de Dados/Algoritmos de Busca/untitled2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Edinho/CLionProjects/Estrutura de Dados/Algoritmos de Busca/untitled2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/Users/Edinho/CLionProjects/Estrutura de Dados/Queue/cmake-build-debug/CMakeFiles/Queue.dir
+C:/Users/Edinho/CLionProjects/Estrutura de Dados/Queue/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Edinho/CLionProjects/Estrutura de Dados/Queue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
