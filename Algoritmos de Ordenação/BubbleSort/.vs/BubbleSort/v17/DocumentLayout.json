@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Edinho\\Desktop\\Git\\estudos\\Algoritmos de Ordena\u00E7\u00E3o\\BubbleSort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F460AC05-E204-486E-A9E0-4398B342E722}|BubbleSort.vcxproj|C:\\Users\\Edinho\\Desktop\\Git\\estudos\\Algoritmos de Ordena\u00E7\u00E3o\\BubbleSort\\BubbleSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F460AC05-E204-486E-A9E0-4398B342E722}|BubbleSort.vcxproj|solutionrelative:BubbleSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BubbleSort.cpp",
+              "DocumentMoniker": "C:\\Users\\Edinho\\Desktop\\Git\\estudos\\Algoritmos de Ordena\u00E7\u00E3o\\BubbleSort\\BubbleSort.cpp",
+              "RelativeDocumentMoniker": "BubbleSort.cpp",
+              "ToolTip": "C:\\Users\\Edinho\\Desktop\\Git\\estudos\\Algoritmos de Ordena\u00E7\u00E3o\\BubbleSort\\BubbleSort.cpp",
+              "RelativeToolTip": "BubbleSort.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-31T09:00:48.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
